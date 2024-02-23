@@ -27,6 +27,7 @@ apply plugin: "kotlin-android"
 apply plugin: "kotlinx-serialization"
 
 android {
+    namespace "cloud.dragonx.plugin.flutter.dji"
     compileSdk 33
     useLibrary "org.apache.http.legacy"
 

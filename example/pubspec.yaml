@@ -24,9 +24,11 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.5
   
-  path_provider: ^2.0.11
-  ffmpeg_kit_flutter_full_gpl: ^4.5.1
-  better_player: ^0.0.83
+  better_player:
+    git:
+      url: https://github.com/mkelleherUSSA/betterplayer_plus_ultra.git
+  ffmpeg_kit_flutter_full_gpl: ^6.0.3
+  path_provider: ^2.1.2
   local_assets_server: ^2.0.2+12
   
 dev_dependencies:

@@ -1561,9 +1561,13 @@ class DronePropertyRow extends StatelessWidget {
           label,
           style: Theme.of(context).textTheme.bodyMedium,
         ),
-        Text(
-          value,
-          style: Theme.of(context).textTheme.bodyLarge,
+        Expanded(
+          child: Text(
+            value,
+            style: Theme.of(context).textTheme.bodyLarge,
+            overflow: TextOverflow.ellipsis,
+            textAlign: TextAlign.right,
+          ),
         ),
       ],
     );
